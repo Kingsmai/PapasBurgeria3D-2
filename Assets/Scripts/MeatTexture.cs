@@ -15,7 +15,7 @@ public class MeatTexture : MonoBehaviour
     }
 
     private void Update() {
-        // DEBUG: On mouse click, change MeatLevelTexture
+        // DEBUG: On mouse click, change cooking level
         if (Input.GetMouseButtonDown(0)) {
             currentLevel++;
             if (currentLevel >= MeatLevelTexture.Count) {
